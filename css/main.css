@@ -1,0 +1,75 @@
+:root {
+  font-size: 20px;
+
+  --clr-primary-light: #aaa;
+  --clr-test: #ddd;
+  --clr-secondary: rgb(255, 136, 0);
+}
+
+h1,
+h2,
+h3,
+h4,
+body {
+  margin: 0;
+  font-family: "Crete", sans-serif;
+}
+
+h1 {
+  margin: 1rem;
+}
+
+p {
+  font-weight: lighter;
+  font-size: 0.75rem;
+}
+
+footer {
+  margin: 6rem 0;
+}
+
+.contact {
+  border-bottom: var(--clr-secondary) solid;
+}
+
+.container {
+  max-width: 55rem;
+  margin: 0 auto;
+}
+
+.contain {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+}
+
+.container-narrow {
+  width: 20%;
+}
+
+.color-secondary {
+  color: var(--clr-secondary);
+}
+.navbar {
+  display: flex;
+  background-color: var(--clr-primary-light);
+  justify-content: space-around;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.nav-btn {
+  display: flex;
+  background: var(--clr-test);
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.cover {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+}
