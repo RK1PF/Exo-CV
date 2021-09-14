@@ -1,8 +1,8 @@
 :root {
   font-size: 20px;
 
-  --clr-primary-light: #aaa;
-  --clr-test: #ddd;
+  --clr-primary-light: rgb(255, 255, 255);
+  --clr-test: rgb(255, 255, 255);
   --clr-secondary: rgb(255, 136, 0);
 }
 
